@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-07T13:25:26 IST" name="Suite" finished-at="2024-12-07T13:25:35 IST" duration-ms="8590">
+    <groups>
+    </groups>
+    <test started-at="2024-12-07T13:25:26 IST" name="Test" finished-at="2024-12-07T13:25:35 IST" duration-ms="8590">
+      <class name="com.ninza.hrm.api.employetest.EmployeeTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninza.hrm.api.employetest.EmployeeTest@28dcca0c]" started-at="2024-12-07T13:25:23 IST" name="configBS" finished-at="2024-12-07T13:25:26 IST" duration-ms="2851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="addEmployeeTest()[pri:0, instance:com.ninza.hrm.api.employetest.EmployeeTest@28dcca0c]" started-at="2024-12-07T13:25:26 IST" name="addEmployeeTest" finished-at="2024-12-07T13:25:31 IST" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method signature="addEmployeeWithoutEmailTest()[pri:0, instance:com.ninza.hrm.api.employetest.EmployeeTest@28dcca0c]" started-at="2024-12-07T13:25:31 IST" name="addEmployeeWithoutEmailTest" finished-at="2024-12-07T13:25:32 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeWithoutEmailTest -->
+        <test-method is-config="true" signature="configAs()[pri:0, instance:com.ninza.hrm.api.employetest.EmployeeTest@28dcca0c]" started-at="2024-12-07T13:25:35 IST" name="configAs" finished-at="2024-12-07T13:25:35 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAs -->
+      </class> <!-- com.ninza.hrm.api.employetest.EmployeeTest -->
+      <class name="com.ninza.hrm.api.projecttest.ProjectTest">
+        <test-method signature="addSingleProjectWithCreated()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@536f2a7e]" started-at="2024-12-07T13:25:32 IST" name="addSingleProjectWithCreated" finished-at="2024-12-07T13:25:34 IST" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreated -->
+        <test-method signature="createDuplicateProjectTest()[pri:0, instance:com.ninza.hrm.api.projecttest.ProjectTest@536f2a7e]" started-at="2024-12-07T13:25:34 IST" name="createDuplicateProjectTest" finished-at="2024-12-07T13:25:35 IST" depends-on-methods="com.ninza.hrm.api.projecttest.ProjectTest.addSingleProjectWithCreated" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateProjectTest -->
+      </class> <!-- com.ninza.hrm.api.projecttest.ProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
